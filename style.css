@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* 
+=====================
+    VARIABLES
+=====================
+*/
+
+:root{
+    --backgroundColor :hsl(212, 45%, 89%);
+    --containerColor: hsl(0, 0%, 100%);
+    --fontFamily : "Outfit", sans-serif;
+    --ffPrimary : 700;
+    --ffSecondary : 400;
+    --borderRadius : 10px;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: var(--backgroundColor);
+    font-family: var(--fontFamily);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    max-width: 375px;
+    background-color:var(--containerColor);
+    padding: 1rem;
+    border-radius: var(--borderRadius);
+    font-size: 15px;
+}
+
+.image{
+    width: 100%;
+    border-radius: var(--borderRadius);
+}
+.qr-code-body .primary{
+    font-weight: var(--ffPrimary);
+    margin-top: .5rem;
+}
+
+.qr-code-body .secondary{
+    font-weight: var(--ffSecondary);
+    margin: .5rem 0;
+}
+
+
+@media screen and (min-width : 480px) {
+    .container{
+        width: 50%;
+    }
+}
