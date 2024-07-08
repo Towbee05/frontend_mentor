@@ -29,8 +29,8 @@ This is a project which displays a responsive QR code component website. This wa
 ![](./images/Screen%20Shot%202024-07-08%20at%2012.48.57.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://frontend-mentor-tau-taupe.vercel.app/)
+- Live Site URL: [Add live site URL here](https://frontend-mentor-tau-taupe.vercel.app/)
 
 ## My process
 I wrote the page for a mobile phone first, styled it and the the code for the bigger screens
